@@ -29,12 +29,16 @@
     /* clip-path: circle(); */
     /* background-size: contain; 
     background-repeat: no-repeat; */
-    clip-path: circle();
+    /* clip-path: circle(); */
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
 .info-content{
     flex: 0.45;
-    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .sidebar-name{
